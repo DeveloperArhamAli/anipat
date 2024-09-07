@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.hero{
+    height: 85vh;
+    width: 100%;
+    background-image: url('images/bgbanner.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.nav{
+    height: 97.5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 90px;
+    background-color: white;
+}
+
+.part2 ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.part2 ul li{
+    list-style: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.part2 ul li select{
+    border: 2px solid white;
+    outline: none;
+    width: 20px;
+}
+
+.div1 h1{
+    font-size: 75px;
+    color: white;
+    font-weight: 200;
+    line-height: 80px;
+}
+
+.div1 h1 span{
+    font-weight: 800;
+}
+
+.div1 p{
+    color: white;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+.div1 button{
+    padding: 15px 50px;
+    border-radius: 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    color: #EF3A16;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 70px;
+    transition: .2s ease-in-out;
+}
+
+.div1 button:hover{
+    background-color: #EF3A16;
+    color: white;
+}
+
+.div2{
+    width: 60%;
+}
+
+.div2 img{
+    width: 100%;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.services > h1{
+    font-size: 50px;
+}
+
+.services > p{
+    color: #909092;
+    text-align: center;
+}
+
+.services .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin: 100px 0;
+    width: 100%;
+}
+
+.services .cards .card{
+    height: 492px;
+    width: 350px;
+    padding: 50px 35px;
+    border: 1px solid #f89985;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease-in-out;
+}
+
+.services .cards .card:hover{
+    box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.3);
+}
+
+.services .cards .card .dogbg{
+    width: 160px;
+    height: 140px;
+    background-image: url(images/dogbg.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .cards .card h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.services .cards .card p{
+    color: #909092;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.pet .part2 h1{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.pet .part2 h1 span{
+    font-weight: 700;
+}
+
+.pet .part2 p{
+    color: #909092;
+    margin-top: 50px;
+}
+
+.pet .part2 button{
+    padding: 15px 50px;
+    border-radius: 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #EF3A16;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+    transition:.2s ease-in-out;
+}
+
+.adopt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 100px;
+    width: 100%;
+}
+
+.adopt .firstpart h1 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.adopt .firstpart h1 span {
+    font-weight: 700;
+}
+
+.adopt > .firstpart > p {
+    color: #909092;
+    margin-top: 50px;
+}
+
+.adopt .firstpart button {
+    padding: 15px 50px;
+    border-radius: 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #EF3A16;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.adopt .secondpart {
+    display: flex;
+    align-items: center;
+}
+
+.adopt .secondpart .div1 {
+    height: 250px;
+    width: 250px;
+    box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.1);
+    margin: 30px 30px 0 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.adopt .secondpart .div1 h1, .adopt .secondpart .div1 p{
+    color: black;
+    margin-top: 0;
+}
+
+.comments {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.comments .comment{
+    height: 309px;
+    min-width: 920px;
+    box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin: 0 50px;
+}
+
+.comments .comment .content h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.comments .comment .content span{
+    color: #909092;
+}
+
+.comments .comment .content p {
+    line-height: 30px;
+    color: #66666F;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.team {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.team h1 {
+    font-size: 40px;
+}
+
+.team p {
+    text-align: center;
+    color: #66666F;
+}
+
+.team .images {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.team .images .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team .images .image .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+    padding: 20px;
+    width: fit-content;
+}
+
+.anipat {
+    height: 100%;
+    width: 100%;
+    background-image: url(images/bgbannerr.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.anipat h1 {
+    font-size: 40px;
+}
+
+.anipat h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 500;
+}
+
+.anipat .line {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.anipat .line button{
+    padding: 15px 50px;
+    border-radius: 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    color: #EF3A16;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+}
+
+.anipat .line button:hover{
+    background-color: #EF3A16;
+    color: white;
+}
+
+.footer {
+    height: 45vh;
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .up{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.footer .up h1{
+    color: black;
+    font-size: 25px;
+}
+
+.footer .up li {
+    list-style: none;
+}
+
+.footer .div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
